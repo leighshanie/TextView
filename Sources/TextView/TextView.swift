@@ -246,7 +246,7 @@ public struct TextView: View {
 	private var representable: Representable {
 		.init(
 			text: $text,
-			isEditing: $isEditing,
+			isEditing: isEditing,
 			textAlignment: textAlignment,
 			textHorizontalPadding: textHorizontalPadding,
 			textVerticalPadding: textVerticalPadding,
